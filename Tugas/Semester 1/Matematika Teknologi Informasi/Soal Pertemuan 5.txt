@@ -1,0 +1,5 @@
+Misal jika ada
+persamaan-persamaan simultan sbb:
+x1 + x2 +X3 = 6 
+2X1-X2+x3 = 3
+-X1+ X2 + 2x3= 7
