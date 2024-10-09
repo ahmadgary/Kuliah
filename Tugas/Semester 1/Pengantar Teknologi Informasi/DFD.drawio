@@ -1,0 +1,59 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Page-1" id="1wYGl5MXUg0W47S2GF2_">
+    <mxGraphModel dx="1036" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sxqIN-SkA7RztW9Io5yy-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sxqIN-SkA7RztW9Io5yy-1" target="sxqIN-SkA7RztW9Io5yy-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sxqIN-SkA7RztW9Io5yy-1" value="Tamu" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="50" y="140" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="sxqIN-SkA7RztW9Io5yy-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.998;entryY=0.834;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="sxqIN-SkA7RztW9Io5yy-2" target="sxqIN-SkA7RztW9Io5yy-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sxqIN-SkA7RztW9Io5yy-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="sxqIN-SkA7RztW9Io5yy-2" target="sxqIN-SkA7RztW9Io5yy-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sxqIN-SkA7RztW9Io5yy-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="sxqIN-SkA7RztW9Io5yy-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="273" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sxqIN-SkA7RztW9Io5yy-2" value="Reservasi Hotel" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="420" y="145" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="sxqIN-SkA7RztW9Io5yy-3" value="Admin" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="920" y="140" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="sxqIN-SkA7RztW9Io5yy-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="sxqIN-SkA7RztW9Io5yy-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sxqIN-SkA7RztW9Io5yy-8" value="Info Kamar" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="295" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sxqIN-SkA7RztW9Io5yy-10" value="Isi Formulir Reservasi" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="280" y="190" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sxqIN-SkA7RztW9Io5yy-11" value="Isi Formulir Pembatalan" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="270" y="140" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sxqIN-SkA7RztW9Io5yy-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.933;entryY=0.233;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="sxqIN-SkA7RztW9Io5yy-3" target="sxqIN-SkA7RztW9Io5yy-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sxqIN-SkA7RztW9Io5yy-14" value="Up/Down Hotel Info" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="640" y="145" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sxqIN-SkA7RztW9Io5yy-16" value="Info Pembatalan&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="640" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sxqIN-SkA7RztW9Io5yy-18" value="Info Tamu&lt;div&gt;Menunggu Info&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="590" y="230" width="90" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
