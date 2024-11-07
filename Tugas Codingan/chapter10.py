@@ -2,6 +2,13 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox
 
+# Variabel global untuk menyimpan nilai awal
+initial_values = {
+    "kode": "",
+    "nama": "",
+    "jenis": ""
+}
+
 def validate_inputs():
     kode = entry_kode.get()
     nama = entry_nama.get()
@@ -21,13 +28,27 @@ def save_data():
         nama = entry_nama.get()
         jenis = combo_jenis.get()
         text_area.insert(tk.END, f"Save: Kode: {kode}, Nama: {nama}, Jenis: {jenis}\n")
+        # Simpan nilai awal
+        initial_values["kode"] = kode
+        initial_values["nama"] = nama
+        initial_values["jenis"] = jenis
 
 def update_data():
     if validate_inputs():
         kode = entry_kode.get()
         nama = entry_nama.get()
         jenis = combo_jenis.get()
+        
+        # Periksa apakah ada perubahan pada data
+        if kode == initial_values["kode"] and nama == initial_values["nama"] and jenis == initial_values["jenis"]:
+            messagebox.showerror("Update Error", "Tidak ada perubahan pada data!")
+            return
+        
         text_area.insert(tk.END, f"Update: Kode: {kode}, Nama: {nama}, Jenis: {jenis}\n")
+        # Perbarui nilai awal
+        initial_values["kode"] = kode
+        initial_values["nama"] = nama
+        initial_values["jenis"] = jenis
 
 def delete_data():
     if validate_inputs():
@@ -63,7 +84,7 @@ entry_nama.grid(row=1, column=1, padx=10, pady=5)
 label_jenis = tk.Label(frame, text="JENIS", font=("Helvetica", 12), bg="#f5f5f5")
 label_jenis.grid(row=2, column=0, sticky="w")
 combo_jenis = ttk.Combobox(frame, width=28, font=("Helvetica", 12))
-combo_jenis['values'] = ("Jenis A", "Jenis B", "Jenis C")
+combo_jenis['values'] = ("Jenis A", "Jenis B", "Jenis C") 
 combo_jenis.grid(row=2, column=1, padx=10, pady=5)
 
 frame_buttons = tk.Frame(root, padx=10, pady=10, bg="#f5f5f5")
